@@ -81,20 +81,20 @@ If you are a model developer at Statistics Canada or in one of our partner organ
 
 1. Download the software to the location of your choice, as described [above](#download-and-install). 
 
-2. Then open the exisitng model solution file (e.g., RiskPaths-ompp.sln) in Visual Studio Community or Professional. and 
+2. Then open the existing model solution file (e.g., RiskPaths-ompp.sln) in Visual Studio Community or Professional.
 
 3. “Rebuild Solution” from the “Build” menu option. 
 
 4. After the model has been successfully built, if the OMS does not start automatically, double-click the “start-ompp-ui.bat” file to launch the service and the UI. 
 
-**Important notes:** If you use an IDE to compile, we recommend using Visual Studio Community or Professional 2022 or 2026. Additionally, tt is important to note that the model should be compiled in the same version of Visual Studio in which it is built, otherwise additional set-up steps will be required: instructions are <a href="https://github.com/openmpp/openmpp.github.io/wiki/Windows-Quick-Start-Developer#using-older-versions-of-visual-studio" target="_blank">linked here</a>.
+**Important notes:** If you use an IDE to compile, we recommend using Visual Studio Community or Professional 2022 or 2026. Additionally, it is important to note that the model should be compiled in the same version of Visual Studio in which it is built, otherwise additional set-up steps will be required: instructions are <a href="https://github.com/openmpp/openmpp.github.io/wiki/Windows-Quick-Start-Developer#using-older-versions-of-visual-studio" target="_blank">linked here</a>.
  
 ## Running your existing models with `stcopenmpp`
 
 There are a couple of ways to run existing microsimulation models developed with `stcopenmpp`. 
 
 **If you like using a UI-**
-- Use the built-in user interface (UI) that comes with `stcopenmpp`. See the [section above](#running-stcopenmpp-in-windows) to learn how to get the webservice started and open the UI. The UI is documented extensively <a href="https://github.com/openmpp/openmpp.github.io/wiki" target="_blank">here</a>.
+- Use the built-in user interface (UI) that comes with `stcopenmpp`. See the [section above](#steps-for-running-stcopenmpp-in-windows) to learn how to get the webservice started and open the UI. The UI is documented extensively <a href="https://github.com/openmpp/openmpp.github.io/wiki" target="_blank">here</a>.
 
 **If you like running your models programmatically-**
 - We recommend using the `openmpp` R package developed by **Matt Warkentin** that comes bundled with `stcopenmpp`, see the [plugins](https://github.com/statcan/stcopenmpp/tree/main/plugins/openmpp) folder. 
